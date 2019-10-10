@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:braidrhinestone/adminUser:password
+  username: admin
+dashboardAuthID: vault:braidrhinestone:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:braidrhinestone:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:braidrhinestone/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:braidrhinestone/prow:hmacToken
